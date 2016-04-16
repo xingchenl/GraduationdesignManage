@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<declare-styleable name="timeSchedule">
+    <attr name="TimeL" format="string"/>
+    <attr name="NumberX" format="integer"/>
+    <attr name="StateL" format="string"/>
+    <attr name="BackgroundL" format="color"/>
+
+
+
+
+</declare-styleable>
+</resources>

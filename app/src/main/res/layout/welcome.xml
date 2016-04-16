@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="@drawable/welocme"
+			/>
+		<ImageView
+			android:layout_width="150dp"
+			android:layout_height="150dp"
+			android:background="@drawable/logo"
+			android:id="@+id/imageView"
+			android:layout_marginTop="25dp"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/textView2"
+			android:layout_toEndOf="@+id/textView2" />
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="毕业设计论文"
+			android:textColor="#d7470e"
+			android:textSize="30dp"
+			android:id="@+id/textView"
+			android:layout_below="@+id/imageView"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="43dp" />
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="系统"
+			android:textSize="32dp"
+			android:textColor="#d7470e"
+			android:layout_below="@+id/textView"
+			android:layout_centerHorizontal="true"
+			android:id="@+id/textView2" />
+	</RelativeLayout>
+    
+
+</LinearLayout>
